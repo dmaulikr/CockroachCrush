@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="XzP-gL-LsD">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Start View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="StartViewController" customModule="Cockroach_Crush" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cockroach Crush!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d7N-CX-Dny">
+                                <rect key="frame" x="-8" y="83" width="391" height="53"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="53" id="xZq-H8-VWg"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-BoldItalic" family="Helvetica Neue" pointSize="30"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Highscore: 000" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ici-sK-8e1">
+                                <rect key="frame" x="-8" y="402" width="391" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="1Yt-D5-ZaS"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="30"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Cockroach5" translatesAutoresizingMaskIntoConstraints="NO" id="AQ9-Df-A3j">
+                                <rect key="frame" x="54" y="144" width="266" height="250"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="250" id="umf-nD-UlF"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="725-41-e75">
+                                <rect key="frame" x="137" y="547" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="W25-vm-6g3"/>
+                                    <constraint firstAttribute="width" constant="100" id="fVf-WQ-Pwq"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" backgroundImage="playButton">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="1hR-Jy-7Wu" kind="show" id="8Fd-ML-h9H"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Games Played:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NRR-ik-EF6">
+                                <rect key="frame" x="-8" y="442" width="391" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="ihh-nH-IIr"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="21"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="NRR-ik-EF6" firstAttribute="top" secondItem="Ici-sK-8e1" secondAttribute="bottom" id="6Cv-Sv-awR"/>
+                            <constraint firstItem="AQ9-Df-A3j" firstAttribute="top" secondItem="d7N-CX-Dny" secondAttribute="bottom" constant="8" id="Bqh-or-4cl"/>
+                            <constraint firstItem="NRR-ik-EF6" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-24" id="I8B-bz-sIF"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Ici-sK-8e1" secondAttribute="trailing" constant="-24" id="VbQ-pC-LEh"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="d7N-CX-Dny" secondAttribute="trailing" constant="-24" id="X2f-Av-QlW"/>
+                            <constraint firstItem="d7N-CX-Dny" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="19" id="Z7c-eh-xHu"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="AQ9-Df-A3j" secondAttribute="trailing" constant="39" id="bAM-Ve-YZW"/>
+                            <constraint firstItem="Ici-sK-8e1" firstAttribute="top" secondItem="AQ9-Df-A3j" secondAttribute="bottom" constant="8" id="cL2-4m-Msf"/>
+                            <constraint firstItem="725-41-e75" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ggo-IS-mHB"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="725-41-e75" secondAttribute="bottom" constant="20" id="ptv-Sv-1A4"/>
+                            <constraint firstItem="Ici-sK-8e1" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-24" id="q5E-xb-MxG"/>
+                            <constraint firstItem="AQ9-Df-A3j" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="38" id="r8H-nj-mQe"/>
+                            <constraint firstItem="d7N-CX-Dny" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-24" id="tHM-Eo-4xm"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="NRR-ik-EF6" secondAttribute="trailing" constant="-24" id="umD-a1-BV3"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="tnN-nl-gh4"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="gamesPlayed" destination="NRR-ik-EF6" id="40E-Zk-dba"/>
+                        <outlet property="highScore" destination="Ici-sK-8e1" id="I4e-g8-VF2"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1105.5" y="408.5"/>
+        </scene>
+        <!--Game View Controller-->
+        <scene sceneID="DtH-eI-k7s">
+            <objects>
+                <viewController id="1hR-Jy-7Wu" customClass="GameViewController" customModule="Cockroach_Crush" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="LXK-4t-6e1"/>
+                        <viewControllerLayoutGuide type="bottom" id="15m-Tu-bK7"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="amx-FT-CLv">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="15" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NjA-i5-xa2">
+                                <rect key="frame" x="16" y="105" width="163" height="99"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="99" id="gVW-kP-YS8"/>
+                                    <constraint firstAttribute="width" constant="163" id="uBb-FF-XJZ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="40"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="000" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WSY-85-rXK">
+                                <rect key="frame" x="195" y="105" width="164" height="99"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="99" id="Y5K-vt-M62"/>
+                                    <constraint firstAttribute="width" constant="164" id="qir-e7-RPb"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="70"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1cp-hv-egI">
+                                <rect key="frame" x="63" y="223" width="250" height="250"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="250" id="Htp-Wk-Cn0"/>
+                                    <constraint firstAttribute="width" constant="250" id="c67-ao-9AB"/>
+                                </constraints>
+                                <state key="normal" image="Cockroach1"/>
+                                <state key="highlighted" image="Cockroach2"/>
+                                <connections>
+                                    <action selector="tapButtonTapped:" destination="1hR-Jy-7Wu" eventType="touchUpInside" id="Fvb-uq-VCe"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="WSY-85-rXK" firstAttribute="top" secondItem="LXK-4t-6e1" secondAttribute="bottom" constant="41" id="Jgi-Yn-Heu"/>
+                            <constraint firstItem="1cp-hv-egI" firstAttribute="centerX" secondItem="amx-FT-CLv" secondAttribute="centerX" id="Lf6-YS-it2"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="WSY-85-rXK" secondAttribute="trailing" id="X8s-ff-Hx3"/>
+                            <constraint firstItem="NjA-i5-xa2" firstAttribute="leading" secondItem="amx-FT-CLv" secondAttribute="leadingMargin" id="d0h-uD-XVg"/>
+                            <constraint firstItem="NjA-i5-xa2" firstAttribute="top" secondItem="LXK-4t-6e1" secondAttribute="bottom" constant="41" id="d4Z-YI-Div"/>
+                            <constraint firstItem="1cp-hv-egI" firstAttribute="top" secondItem="WSY-85-rXK" secondAttribute="bottom" constant="19" id="rAn-1G-Nca"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="scoreLabel" destination="WSY-85-rXK" id="2CU-fq-wNv"/>
+                        <outlet property="tapButton" destination="1cp-hv-egI" id="7nT-c0-NIk"/>
+                        <outlet property="timerLabel" destination="NjA-i5-xa2" id="Q1D-Wb-oOO"/>
+                        <segue destination="nMy-AC-E9u" kind="show" identifier="ScoreSegue" id="7s8-1o-zmD"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QEc-4g-oQD" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1572.5" y="408.5"/>
+        </scene>
+        <!--Score View Controller-->
+        <scene sceneID="CiB-ZC-tvm">
+            <objects>
+                <viewController storyboardIdentifier="Info" id="nMy-AC-E9u" customClass="ScoreViewController" customModule="Cockroach_Crush" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ksZ-B0-TS3"/>
+                        <viewControllerLayoutGuide type="bottom" id="3as-yj-98I"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Qhe-Xs-rzg">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Highscore:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sr7-He-KpN">
+                                <rect key="frame" x="-8" y="170" width="391" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="BFH-4p-h2t"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="21"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cockroaches Killed: 123" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="30f-ES-Ma5">
+                                <rect key="frame" x="65" y="83" width="245" height="79"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="245" id="ckP-OR-BFN"/>
+                                    <constraint firstAttribute="height" constant="79" id="p9l-qh-mqr"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="30"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lJb-vX-6me">
+                                <rect key="frame" x="137" y="547" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="Hgm-7L-PX6"/>
+                                    <constraint firstAttribute="width" constant="100" id="ROl-uh-juZ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" backgroundImage="playButton"/>
+                                <connections>
+                                    <segue destination="EEJ-bx-Ni0" kind="unwind" identifier="StartSegue" unwindAction="unwindToStartVC:" id="oCM-Ed-H6X"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Cockroach3" translatesAutoresizingMaskIntoConstraints="NO" id="qAT-lz-luq">
+                                <rect key="frame" x="-4" y="218" width="383" height="250"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="250" id="w1O-m8-XnC"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="30f-ES-Ma5" firstAttribute="top" secondItem="ksZ-B0-TS3" secondAttribute="bottom" constant="19" id="4Vu-lG-9GD"/>
+                            <constraint firstItem="qAT-lz-luq" firstAttribute="leading" secondItem="Qhe-Xs-rzg" secondAttribute="leadingMargin" constant="-20" id="8ts-YQ-Irg"/>
+                            <constraint firstItem="3as-yj-98I" firstAttribute="top" secondItem="lJb-vX-6me" secondAttribute="bottom" constant="20" id="FRk-uV-MwE"/>
+                            <constraint firstItem="Sr7-He-KpN" firstAttribute="leading" secondItem="Qhe-Xs-rzg" secondAttribute="leadingMargin" constant="-24" id="G8L-Tt-bi8"/>
+                            <constraint firstItem="qAT-lz-luq" firstAttribute="top" secondItem="Sr7-He-KpN" secondAttribute="bottom" constant="8" id="KvD-Fs-OYZ"/>
+                            <constraint firstItem="lJb-vX-6me" firstAttribute="centerX" secondItem="Qhe-Xs-rzg" secondAttribute="centerX" id="QbC-To-3XW"/>
+                            <constraint firstItem="30f-ES-Ma5" firstAttribute="centerX" secondItem="Qhe-Xs-rzg" secondAttribute="centerX" id="UYC-8e-Arn"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Sr7-He-KpN" secondAttribute="trailing" constant="-24" id="WkF-wR-d7o"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="qAT-lz-luq" secondAttribute="trailing" constant="-20" id="kYp-o6-yYe"/>
+                            <constraint firstItem="Sr7-He-KpN" firstAttribute="top" secondItem="30f-ES-Ma5" secondAttribute="bottom" constant="8" id="ldi-hl-EdX"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="currentScore" destination="30f-ES-Ma5" id="Ley-k8-rdh"/>
+                        <outlet property="highScore" destination="Sr7-He-KpN" id="q1c-Gx-SMX"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BLs-Rh-YVc" sceneMemberID="firstResponder"/>
+                <exit id="EEJ-bx-Ni0" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="1999.5" y="408.5"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="dRd-Ia-3Ew">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="XzP-gL-LsD" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="6aR-mP-sC7">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="jNw-lV-fc1"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AJO-Ln-F75" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="596.5" y="408.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Cockroach1" width="300" height="300"/>
+        <image name="Cockroach2" width="300" height="300"/>
+        <image name="Cockroach3" width="300" height="300"/>
+        <image name="Cockroach5" width="300" height="300"/>
+        <image name="playButton" width="1200" height="1200"/>
+    </resources>
+</document>

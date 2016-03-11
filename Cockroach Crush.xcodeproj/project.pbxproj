@@ -7,23 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A801C78B1C90AE7700737D0A /* Dramatic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A801C7881C90AE7700737D0A /* Dramatic.mp3 */; };
+		A801C78C1C90AE7700737D0A /* Happy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A801C7891C90AE7700737D0A /* Happy.mp3 */; };
+		A8C866361C90BAA000E793C8 /* Tap.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A8C866351C90BAA000E793C8 /* Tap.mp3 */; };
 		A8F02CF71C8E15BA00163232 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F02CF61C8E15BA00163232 /* AppDelegate.swift */; };
-		A8F02CF91C8E15BA00163232 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F02CF81C8E15BA00163232 /* ViewController.swift */; };
-		A8F02CFC1C8E15BA00163232 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8F02CFA1C8E15BA00163232 /* Main.storyboard */; };
 		A8F02CFF1C8E15BA00163232 /* DieCockroachDie.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A8F02CFD1C8E15BA00163232 /* DieCockroachDie.xcdatamodeld */; };
 		A8F02D011C8E15BA00163232 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8F02D001C8E15BA00163232 /* Assets.xcassets */; };
 		A8F02D041C8E15BA00163232 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8F02D021C8E15BA00163232 /* LaunchScreen.storyboard */; };
+		A8F02D0C1C8E1A2A00163232 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F02D0B1C8E1A2A00163232 /* StartViewController.swift */; };
+		A8F02D0E1C8E1A4900163232 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F02D0D1C8E1A4900163232 /* GameViewController.swift */; };
+		A8F02D101C8E1A6400163232 /* ScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F02D0F1C8E1A6400163232 /* ScoreViewController.swift */; };
+		A8F02D121C8E229E00163232 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F02D111C8E229D00163232 /* Player.swift */; };
+		A8F02D161C8EBF8400163232 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8F02D151C8EBF8400163232 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A8F02CF31C8E15BA00163232 /* DieCockroachDie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DieCockroachDie.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A801C7881C90AE7700737D0A /* Dramatic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Dramatic.mp3; sourceTree = "<group>"; };
+		A801C7891C90AE7700737D0A /* Happy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Happy.mp3; sourceTree = "<group>"; };
+		A8C866351C90BAA000E793C8 /* Tap.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Tap.mp3; sourceTree = "<group>"; };
+		A8F02CF31C8E15BA00163232 /* Cockroach Crush.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cockroach Crush.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8F02CF61C8E15BA00163232 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A8F02CF81C8E15BA00163232 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A8F02CFB1C8E15BA00163232 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A8F02CFE1C8E15BA00163232 /* DieCockroachDie.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DieCockroachDie.xcdatamodel; sourceTree = "<group>"; };
 		A8F02D001C8E15BA00163232 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A8F02D031C8E15BA00163232 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A8F02D051C8E15BA00163232 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8F02D0B1C8E1A2A00163232 /* StartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		A8F02D0D1C8E1A4900163232 /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		A8F02D0F1C8E1A6400163232 /* ScoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ScoreViewController.swift; path = ../ScoreViewController.swift; sourceTree = "<group>"; };
+		A8F02D111C8E229D00163232 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		A8F02D151C8EBF8400163232 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +60,7 @@
 		A8F02CF41C8E15BA00163232 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A8F02CF31C8E15BA00163232 /* DieCockroachDie.app */,
+				A8F02CF31C8E15BA00163232 /* Cockroach Crush.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -57,8 +69,14 @@
 			isa = PBXGroup;
 			children = (
 				A8F02CF61C8E15BA00163232 /* AppDelegate.swift */,
-				A8F02CF81C8E15BA00163232 /* ViewController.swift */,
-				A8F02CFA1C8E15BA00163232 /* Main.storyboard */,
+				A8F02D111C8E229D00163232 /* Player.swift */,
+				A8F02D0B1C8E1A2A00163232 /* StartViewController.swift */,
+				A8F02D0D1C8E1A4900163232 /* GameViewController.swift */,
+				A8F02D0F1C8E1A6400163232 /* ScoreViewController.swift */,
+				A801C7881C90AE7700737D0A /* Dramatic.mp3 */,
+				A801C7891C90AE7700737D0A /* Happy.mp3 */,
+				A8C866351C90BAA000E793C8 /* Tap.mp3 */,
+				A8F02D151C8EBF8400163232 /* Main.storyboard */,
 				A8F02D001C8E15BA00163232 /* Assets.xcassets */,
 				A8F02D021C8E15BA00163232 /* LaunchScreen.storyboard */,
 				A8F02D051C8E15BA00163232 /* Info.plist */,
@@ -70,9 +88,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A8F02CF21C8E15BA00163232 /* DieCockroachDie */ = {
+		A8F02CF21C8E15BA00163232 /* Cockroach Crush */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A8F02D081C8E15BA00163232 /* Build configuration list for PBXNativeTarget "DieCockroachDie" */;
+			buildConfigurationList = A8F02D081C8E15BA00163232 /* Build configuration list for PBXNativeTarget "Cockroach Crush" */;
 			buildPhases = (
 				A8F02CEF1C8E15BA00163232 /* Sources */,
 				A8F02CF01C8E15BA00163232 /* Frameworks */,
@@ -82,9 +100,9 @@
 			);
 			dependencies = (
 			);
-			name = DieCockroachDie;
+			name = "Cockroach Crush";
 			productName = DieCockroachDie;
-			productReference = A8F02CF31C8E15BA00163232 /* DieCockroachDie.app */;
+			productReference = A8F02CF31C8E15BA00163232 /* Cockroach Crush.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,10 +117,11 @@
 				TargetAttributes = {
 					A8F02CF21C8E15BA00163232 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 3DKZWJ5854;
 					};
 				};
 			};
-			buildConfigurationList = A8F02CEE1C8E15B900163232 /* Build configuration list for PBXProject "DieCockroachDie" */;
+			buildConfigurationList = A8F02CEE1C8E15B900163232 /* Build configuration list for PBXProject "Cockroach Crush" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -115,7 +134,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A8F02CF21C8E15BA00163232 /* DieCockroachDie */,
+				A8F02CF21C8E15BA00163232 /* Cockroach Crush */,
 			);
 		};
 /* End PBXProject section */
@@ -125,9 +144,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8C866361C90BAA000E793C8 /* Tap.mp3 in Resources */,
+				A801C78C1C90AE7700737D0A /* Happy.mp3 in Resources */,
+				A8F02D161C8EBF8400163232 /* Main.storyboard in Resources */,
 				A8F02D041C8E15BA00163232 /* LaunchScreen.storyboard in Resources */,
 				A8F02D011C8E15BA00163232 /* Assets.xcassets in Resources */,
-				A8F02CFC1C8E15BA00163232 /* Main.storyboard in Resources */,
+				A801C78B1C90AE7700737D0A /* Dramatic.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +160,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8F02D0E1C8E1A4900163232 /* GameViewController.swift in Sources */,
 				A8F02CFF1C8E15BA00163232 /* DieCockroachDie.xcdatamodeld in Sources */,
-				A8F02CF91C8E15BA00163232 /* ViewController.swift in Sources */,
+				A8F02D101C8E1A6400163232 /* ScoreViewController.swift in Sources */,
 				A8F02CF71C8E15BA00163232 /* AppDelegate.swift in Sources */,
+				A8F02D121C8E229E00163232 /* Player.swift in Sources */,
+				A8F02D0C1C8E1A2A00163232 /* StartViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		A8F02CFA1C8E15BA00163232 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A8F02CFB1C8E15BA00163232 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A8F02D021C8E15BA00163232 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -253,10 +270,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = DieCockroachDie/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = mattdeuschle.DieCockroachDie;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mattdeuschle.cockroachcrush;
+				PRODUCT_NAME = "Cockroach Crush";
 			};
 			name = Debug;
 		};
@@ -264,17 +282,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = DieCockroachDie/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = mattdeuschle.DieCockroachDie;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mattdeuschle.cockroachcrush;
+				PRODUCT_NAME = "Cockroach Crush";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A8F02CEE1C8E15B900163232 /* Build configuration list for PBXProject "DieCockroachDie" */ = {
+		A8F02CEE1C8E15B900163232 /* Build configuration list for PBXProject "Cockroach Crush" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A8F02D061C8E15BA00163232 /* Debug */,
@@ -283,13 +302,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A8F02D081C8E15BA00163232 /* Build configuration list for PBXNativeTarget "DieCockroachDie" */ = {
+		A8F02D081C8E15BA00163232 /* Build configuration list for PBXNativeTarget "Cockroach Crush" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A8F02D091C8E15BA00163232 /* Debug */,
 				A8F02D0A1C8E15BA00163232 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
