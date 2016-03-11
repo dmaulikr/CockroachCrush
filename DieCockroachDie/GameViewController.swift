@@ -20,16 +20,13 @@ class GameViewController: UIViewController, AVAudioPlayerDelegate {
 
     var countdownTimer = NSTimer()
     var newGameSegueTimer = NSTimer()
-    var countdownTimerInt = 15
+    var countdownTimerInt = 15  
     var segueTimerInt = 2
     let player = Player()
 
     override func viewDidLoad() {
 
-//        self.navigationItem.leftBarButtonItem = nil
-//        self.navigationItem.hidesBackButton = true
         self.navigationController?.navigationBarHidden = true
-
 
         super.viewDidLoad()
         tapButton.enabled = true
@@ -42,7 +39,6 @@ class GameViewController: UIViewController, AVAudioPlayerDelegate {
         else {
 
             print("Hello")
-
         }
 
         if let playerGamesPlay = player.userDefaults.stringForKey("gamesPlay") {
@@ -52,7 +48,6 @@ class GameViewController: UIViewController, AVAudioPlayerDelegate {
         else {
 
             print("Hello2")
-
         }
     }
 
@@ -66,13 +61,11 @@ class GameViewController: UIViewController, AVAudioPlayerDelegate {
 
         if countdownTimerInt <= 0 {
 
-            //            tapButton.setImage(UIImage(named: "Cockroach3"), forState: UIControlState.Normal)
             updateLabels()
             tapButton.enabled = false
             segueTimerFunc()
 
             // save date to NSUserDefaults
-
             if player.currentScore > player.highScore {
 
                 player.highScore = player.currentScore
@@ -146,29 +139,28 @@ class GameViewController: UIViewController, AVAudioPlayerDelegate {
                 let fileData = NSData(contentsOfFile: path)
 
                 do {
-                    /* Start the audio player */
+                    // Start the audio player
                     self.audioPlayerTwo = try AVAudioPlayer(data: fileData!)
 
                     guard let player : AVAudioPlayer? = self.audioPlayerTwo else {
                         return
                     }
 
-                    /* Set the delegate and start playing */
+                    // Set the delegate and start playing
                     player!.delegate = self
                     if player!.prepareToPlay() && player!.play() {
-                        /* Successfully started playing */
+
+                        // Successfully started playing
                     } else {
-                        /* Failed to play */
+                        // Failed to play
                     }
 
                 } catch {
+                    
                     //self.audioPlayer = nil
                     return
                 }
-                
             }
-            
         })
-        
     }
 }

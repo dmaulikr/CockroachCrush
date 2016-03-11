@@ -32,6 +32,5 @@ class Player {
         self.gamesPlayed = gamesPlayed
         self.userDefaults = userDefaults
     }
-
 }
 

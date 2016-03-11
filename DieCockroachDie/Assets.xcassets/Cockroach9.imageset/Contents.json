@@ -2,17 +2,17 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "CockroachSplash1x.png",
+      "filename" : "Cockroach9x1.png",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
-      "filename" : "CockroachSplash2x.png",
+      "filename" : "Cockroach9x2.png",
       "scale" : "2x"
     },
     {
       "idiom" : "universal",
-      "filename" : "CockroachSplash3x.png",
+      "filename" : "Cockroach9.png",
       "scale" : "3x"
     }
   ],

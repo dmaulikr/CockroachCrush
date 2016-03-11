@@ -21,10 +21,7 @@ class ScoreViewController: UIViewController, AVAudioPlayerDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-//        self.navigationItem.leftBarButtonItem = nil
-//        self.navigationItem.hidesBackButton = true
         self.navigationController?.navigationBarHidden = true
-
 
         do {
             try playSound("Dramatic", fileExtension: "mp3")
@@ -60,30 +57,29 @@ class ScoreViewController: UIViewController, AVAudioPlayerDelegate {
                 let fileData = NSData(contentsOfFile: path)
 
                 do {
-                    /* Start the audio player */
+                    // Start the audio player
                     self.audioPlayerThree = try AVAudioPlayer(data: fileData!)
 
                     guard let player : AVAudioPlayer? = self.audioPlayerThree else {
                         return
                     }
 
-                    /* Set the delegate and start playing */
+                    // Set the delegate and start playing
                     player!.delegate = self
                     if player!.prepareToPlay() && player!.play() {
-                        /* Successfully started playing */
+
+                        // Successfully started playing
                     } else {
-                        /* Failed to play */
+                        // Failed to play
                     }
 
                 } catch {
+                    
                     //self.audioPlayer = nil
                     return
                 }
-                
             }
-            
         })
-        
     }
 }
 

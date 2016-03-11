@@ -24,7 +24,7 @@
                                     <constraint firstAttribute="height" constant="53" id="xZq-H8-VWg"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-BoldItalic" family="Helvetica Neue" pointSize="30"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.0" green="0.25098040700000002" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Highscore: 000" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ici-sK-8e1">
@@ -33,7 +33,7 @@
                                     <constraint firstAttribute="height" constant="40" id="1Yt-D5-ZaS"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="30"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.0" green="0.25098040700000002" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Cockroach5" translatesAutoresizingMaskIntoConstraints="NO" id="AQ9-Df-A3j">
@@ -62,11 +62,11 @@
                                     <constraint firstAttribute="height" constant="40" id="ihh-nH-IIr"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="21"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.0" green="0.25098040700000002" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.40392156862745099" green="0.80000000000000004" blue="0.98039215686274506" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="NRR-ik-EF6" firstAttribute="top" secondItem="Ici-sK-8e1" secondAttribute="bottom" id="6Cv-Sv-awR"/>
                             <constraint firstItem="AQ9-Df-A3j" firstAttribute="top" secondItem="d7N-CX-Dny" secondAttribute="bottom" constant="8" id="Bqh-or-4cl"/>
@@ -89,6 +89,7 @@
                     <connections>
                         <outlet property="gamesPlayed" destination="NRR-ik-EF6" id="40E-Zk-dba"/>
                         <outlet property="highScore" destination="Ici-sK-8e1" id="I4e-g8-VF2"/>
+                        <outlet property="startImage" destination="AQ9-Df-A3j" id="9kS-b3-eMb"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -114,7 +115,7 @@
                                     <constraint firstAttribute="width" constant="163" id="uBb-FF-XJZ"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="40"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.0" green="0.25098040700000002" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="000" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WSY-85-rXK">
@@ -124,7 +125,7 @@
                                     <constraint firstAttribute="width" constant="164" id="qir-e7-RPb"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="70"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.0" green="0.25098040700000002" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1cp-hv-egI">
@@ -140,7 +141,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.40392156862745099" green="0.80000000000000004" blue="0.98039215686274506" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="WSY-85-rXK" firstAttribute="top" secondItem="LXK-4t-6e1" secondAttribute="bottom" constant="41" id="Jgi-Yn-Heu"/>
                             <constraint firstItem="1cp-hv-egI" firstAttribute="centerX" secondItem="amx-FT-CLv" secondAttribute="centerX" id="Lf6-YS-it2"/>
@@ -180,7 +181,7 @@
                                     <constraint firstAttribute="height" constant="40" id="BFH-4p-h2t"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="21"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.0" green="0.25098040700000002" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cockroaches Killed: 123" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="30f-ES-Ma5">
@@ -190,7 +191,7 @@
                                     <constraint firstAttribute="height" constant="79" id="p9l-qh-mqr"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="30"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.0" green="0.25098040700000002" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lJb-vX-6me">
@@ -212,7 +213,7 @@
                                 </constraints>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.40392156862745099" green="0.80000000000000004" blue="0.98039215686274506" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="30f-ES-Ma5" firstAttribute="top" secondItem="ksZ-B0-TS3" secondAttribute="bottom" constant="19" id="4Vu-lG-9GD"/>
                             <constraint firstItem="qAT-lz-luq" firstAttribute="leading" secondItem="Qhe-Xs-rzg" secondAttribute="leadingMargin" constant="-20" id="8ts-YQ-Irg"/>
@@ -262,6 +263,6 @@
         <image name="Cockroach2" width="300" height="300"/>
         <image name="Cockroach3" width="300" height="300"/>
         <image name="Cockroach5" width="300" height="300"/>
-        <image name="playButton" width="1200" height="1200"/>
+        <image name="playButton" width="300" height="300"/>
     </resources>
 </document>
